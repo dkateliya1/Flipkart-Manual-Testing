@@ -1,0 +1,1313 @@
+Date: Sun, 28 Dec 2025 03:09:01 +0000 (UTC)
+Message-ID: <442900860.577.1766891341925@79b7daca5029>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_576_1017081555.1766891341925"
+
+------=_Part_576_1017081555.1766891341925
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Business Requirements Document (BRD) for Flipkart E-Commerce Pla=
+tform Enhancement Project</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Business Requirements Document (BRD) for Flipkart E-Commerce Platfo=
+rm Enhancement Project</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"55=
+5e8189-dfed-4513-81af-6673b9a29665" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 536.0px;">
+</colgroup>
+<tbody>
+<tr ac:local-id=3D"25a80933-fcde-414d-a4f4-8fa5418ffae3">
+<th colspan=3D"2" data-local-id=3D"8f4b3399-baf9-4cdb-8f26-939cf94e4a10" cl=
+ass=3D"confluenceTh">
+<p local-id=3D"3a359313-2210-4e76-8c6e-248a3d73b386" style=3D"text-align: c=
+enter;"><strong>Product overview</strong></p></th>
+</tr>
+<tr ac:local-id=3D"9fe8c373-3d7f-4546-8db8-c075d46232bc">
+<th data-local-id=3D"0a5ba403-206a-4d07-8695-335c0a350e84" class=3D"conflue=
+nceTh">
+<p local-id=3D"6ac97909-5e87-49ba-8e96-baaf55f45a45"><strong>Overview</stro=
+ng></p></th>
+<td data-local-id=3D"5e036547-e4d7-4920-ab07-4725a6d0fb3c" class=3D"conflue=
+nceTd">
+<p local-id=3D"d8f74385-17ee-4a54-ac97-e84101f462e1">Flipkart is India=E2=
+=80=99s leading e-commerce marketplace with 200M+ registered users and 14L+=
+ sellers (as of Dec 2025). The platform offers 150+ million products across=
+ Electronics, Fashion, Home, Grocery, Flights, and hyperlocal quick commerc=
+e (Flipkart Minutes). This enhancement project focuses on the web platform =
+(desktop + mobile web) to improve conversion, reduce cart abandonment, stre=
+ngthen seller tools, and roll out 2025 flagship features such as Flipkart I=
+mmerse (multi-modal AI search), Flipkart Black subscription, video commerce=
+, and AI-driven personalization.</p></td>
+</tr>
+<tr ac:local-id=3D"5af73619-29e2-43ca-a584-af4a6eb7c66b">
+<th data-local-id=3D"badade77-27fb-42ec-b77a-1c274a526989" class=3D"conflue=
+nceTh">
+<p local-id=3D"603d0348-9c8f-4413-b68b-e0c435103e08"><img class=3D"emoticon=
+ emoticon-blue-star" data-emoji-id=3D"1f5d3" data-emoji-shortname=3D":calen=
+dar_spiral:" data-emoji-fallback=3D"=F0=9F=97=93=EF=B8=8F" src=3D"b322f53a0=
+4be1ab22e61f72accbb791cafc5c9d466a6d9bb2167b7cf9843fa5e" width=3D"16" heigh=
+t=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue star)">&nbsp;<strong=
+>Target date</strong></p></th>
+<td data-local-id=3D"02ddbbdd-be9e-471d-8153-44803f47d9d9" class=3D"conflue=
+nceTd">
+<p local-id=3D"cdc0ab44-ded8-456f-a552-707a0c9d480b">Phase 1 Go-Live: 15 Ma=
+y 2026</p>
+<p local-id=3D"cdc0ab44-ded8-456f-a552-707a0c9d480b">Big Billion Days 2026 =
+Readiness: 30 Sep 2026</p></td>
+</tr>
+<tr ac:local-id=3D"8134f555-eef6-4fca-83fb-05f82b5a99d1">
+<th data-local-id=3D"b68f2030-0d30-4387-b9d9-ddf2a92e4bd1" class=3D"conflue=
+nceTh">
+<p local-id=3D"6c577c77-d812-44e9-ac40-6b346b37c2c6"><img class=3D"emoticon=
+ emoticon-blue-star" data-emoji-id=3D"1f7e1" data-emoji-shortname=3D":yello=
+w_circle:" data-emoji-fallback=3D"=F0=9F=9F=A1" src=3D"348cc153698f33f99de3=
+9adfcec6a0828c1ef0ac28f81286fb019b91c2f34e6b" width=3D"16" height=3D"16" da=
+ta-emoticon-name=3D"blue-star" alt=3D"(blue star)">&nbsp;<strong>Document s=
+tatus</strong></p></th>
+<td data-local-id=3D"ca5801cb-ee80-4cfc-b31a-2c49b326adc7" class=3D"conflue=
+nceTd">
+<p local-id=3D"363c6e45-6c74-4609-98e8-b5cbec9b0649">DRAFT (v3.1 =E2=80=93 =
+User Story format)</p></td>
+</tr>
+<tr ac:local-id=3D"5650b2a3-b662-4bbb-bba1-02ab42099a81">
+<th data-local-id=3D"c02696c2-c83a-43e6-ac44-6b65e54fec66" class=3D"conflue=
+nceTh">
+<p local-id=3D"95f6e864-6b22-44bb-ad37-aaeb6f763232"><img class=3D"emoticon=
+ emoticon-blue-star" data-emoji-id=3D"1f3bd" data-emoji-shortname=3D":runni=
+ng_shirt_with_sash:" data-emoji-fallback=3D"=F0=9F=8E=BD" src=3D"351bb4d985=
+861ea48d1da03a9e940593a8d9579c3f61cccd3ccfca5c28b15a38" width=3D"16" height=
+=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue star)">&nbsp;<strong>=
+Team members</strong></p></th>
+<td data-local-id=3D"771b28c0-bc10-4ce0-9d2b-80783f8ed509" class=3D"conflue=
+nceTd">
+<ol start=3D"1" local-id=3D"1521378a-3677-4ec0-9b11-c1806a0e4d18">
+<li local-id=3D"20bbafc2-be64-4e70-90a1-4d234850f067">
+<p local-id=3D"c39c4b4a-4e50-4b17-806d-8a96570c8b20">Product Owner: Rajesh =
+Kumar</p></li>
+<li local-id=3D"9f5114e7-9e4f-4b74-87e2-28d95fe37a07">
+<p local-id=3D"7ef7f9a6-faed-43ff-9a80-c7b8f5023a7f">Tech Lead: Himanshu Ch=
+auhan</p></li>
+<li local-id=3D"8f32c8ce-39ff-406c-8df3-2ef56f15ba51">
+<p local-id=3D"9a22b10e-7a1f-478d-977d-080924059302">UX Lead: Vikram Singh<=
+/p></li>
+<li local-id=3D"818bdf92-b6af-41de-a89c-3fb83c3d98e7">
+<p local-id=3D"f18d821c-edcf-4f60-9683-f88c33b6e316">QA Lead: <a class=3D"c=
+onfluence-userlink user-mention current-user-mention" data-account-id=3D"71=
+2020:5e353e29-91cc-435b-87f9-71621c895fc5" href=3D"https://rahulabhaykamat.=
+atlassian.net/wiki/people/712020:5e353e29-91cc-435b-87f9-71621c895fc5?ref=
+=3Dconfluence" target=3D"_blank" data-linked-resource-id=3D"5734411" data-l=
+inked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-ba=
+se-url=3D"https://rahulabhaykamat.atlassian.net/wiki">Deep Kateliya</a></p>=
+</li>
+<li local-id=3D"440e8ffe-bd8f-43fd-9e6b-ece9cba503b3">
+<p local-id=3D"61cc6c15-3fd7-47b5-a825-bcc0eedc0978">Project Manager: <a cl=
+ass=3D"confluence-userlink user-mention" data-account-id=3D"712020:d203f9f6=
+-42b0-4eb3-91d1-a881447fc1c4" href=3D"https://rahulabhaykamat.atlassian.net=
+/wiki/people/712020:d203f9f6-42b0-4eb3-91d1-a881447fc1c4?ref=3Dconfluence" =
+target=3D"_blank" data-linked-resource-id=3D"131073" data-linked-resource-v=
+ersion=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https:=
+//rahulabhaykamat.atlassian.net/wiki">rahulabhaykamat</a></p></li>
+<li local-id=3D"0cd15836-7179-4e33-847a-5a6885265197">
+<p local-id=3D"55259cc7-8020-4eec-8894-16073af4adf8">Business Stakeholders:=
+ Flipkart Growth, Seller Success, Payments, Logistics teams</p></li>
+</ol>
+<p local-id=3D"bc9c0b35-7c36-4487-9732-6a059a880d32"></p></td>
+</tr>
+<tr ac:local-id=3D"c50df2e2-6725-421e-9bf5-7b6432c5bb1b">
+<th colspan=3D"2" data-local-id=3D"1b9574ec-89e5-405c-90a3-e009eab87067" cl=
+ass=3D"confluenceTh">
+<p local-id=3D"00876295-8090-4976-8aa6-683339112237" style=3D"text-align: c=
+enter;"><strong>Quick links</strong></p></th>
+</tr>
+<tr ac:local-id=3D"abdddbc0-e5f2-4c7f-bdc6-f573131dfe17">
+<th data-local-id=3D"ea9d0493-677d-4c5a-806f-b06f2c869bf4" class=3D"conflue=
+nceTh">
+<p local-id=3D"dd5822e3-103f-4780-b27e-5c65bfd4db78"><img class=3D"emoticon=
+ emoticon-blue-star" data-emoji-id=3D"1f3a8" data-emoji-shortname=3D":art:"=
+ data-emoji-fallback=3D"=F0=9F=8E=A8" src=3D"ba95be8126437e35561b9a97a00d34=
+754b20968735fe54eb52c8ccde8cc2cddf" width=3D"16" height=3D"16" data-emotico=
+n-name=3D"blue-star" alt=3D"(blue star)">&nbsp;<strong>Designs</strong></p>=
+</th>
+<td data-local-id=3D"e1e5201a-9ec0-451b-8b76-f86e3c66418f" class=3D"conflue=
+nceTd">
+<p local-id=3D"af294d32-90cf-4d97-8c80-e435fd8b3d85"></p></td>
+</tr>
+<tr ac:local-id=3D"10ee7be5-2855-480d-af8b-45548ebf33f9">
+<th data-local-id=3D"e95d8430-a6f3-42fe-8050-adb291fa02ec" class=3D"conflue=
+nceTh">
+<p local-id=3D"5cf1ce50-c39c-447e-9191-2255388ea06f"><img class=3D"emoticon=
+ emoticon-blue-star" data-emoji-id=3D"1f4f9" data-emoji-shortname=3D":video=
+_camera:" data-emoji-fallback=3D"=F0=9F=93=B9" src=3D"8f2caa106d56d1c0a3831=
+bb4bc1bd1165e7c529387353cf9536d90eb081ab531" width=3D"16" height=3D"16" dat=
+a-emoticon-name=3D"blue-star" alt=3D"(blue star)">&nbsp;<strong>Loom demo</=
+strong></p></th>
+<td data-local-id=3D"6da640cf-7f02-45a9-b09b-1559c3de35cd" class=3D"conflue=
+nceTd">
+<p local-id=3D"79eee2cf-679f-4448-8280-38d0d5d750a8"></p></td>
+</tr>
+<tr ac:local-id=3D"66287efd-cef8-4b72-bf58-be6e84adb8bd">
+<th data-local-id=3D"e960e070-4bf7-458a-a1b8-34aaef11ac1d" class=3D"conflue=
+nceTh">
+<p local-id=3D"ae29629d-6dbb-47f2-9db3-67ba694b87d1"><img class=3D"emoticon=
+ emoticon-blue-star" data-emoji-id=3D"1f5c3" data-emoji-shortname=3D":card_=
+box:" data-emoji-fallback=3D"=F0=9F=97=83=EF=B8=8F" src=3D"d231c204cf5d8a89=
+e443e3c7f16cf002ddf89bebbf27bbdbc6869d7cf2823222" width=3D"16" height=3D"16=
+" data-emoticon-name=3D"blue-star" alt=3D"(blue star)">&nbsp;<strong>Work t=
+racker</strong></p></th>
+<td data-local-id=3D"0c684ca9-07bc-4596-ae81-b021b3672708" class=3D"conflue=
+nceTd">
+<p local-id=3D"bcde76d6-20e0-4b77-b8de-38f62c8f226b"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"70f968e7-410e-4085-a76f-fa7e0b396d0e" id=3D"BusinessRequire=
+mentsDocument(BRD)forFlipkartE-CommercePlatformEnhancementProject-Objective=
+"><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f3af" data-e=
+moji-shortname=3D":dart:" data-emoji-fallback=3D"=F0=9F=8E=AF" src=3D"20285=
+ce65c22633c5d337739eb2c5e56a87edd10d0d73455856f6dad1c5b95a4" width=3D"16" h=
+eight=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue star)">&nbsp;Obj=
+ective</h2>
+<p local-id=3D"560d3932-839d-4b6c-82e0-c43e12538155">Deliver a faster, more=
+ personalized, and conversion-optimized Flipkart web experience while empow=
+ering sellers with AI-assisted tools and providing a seamless loyalty journ=
+ey via Flipkart Black &amp; SuperCoins.</p>
+<p local-id=3D"079bbe69-4f4c-4e1e-add7-aa802b7df33b"></p>
+<h2 local-id=3D"2fa228ca-1752-4abb-a994-6893b0b841cf" id=3D"BusinessRequire=
+mentsDocument(BRD)forFlipkartE-CommercePlatformEnhancementProject-Successme=
+trics"><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f4ca" d=
+ata-emoji-shortname=3D":bar_chart:" data-emoji-fallback=3D"\uD83D\uDCCA" sr=
+c=3D"60c6b6aebc2848534fd030085f4bf3750344f0bb375843969814a0c7fae7d7aa" widt=
+h=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue star)"=
+>&nbsp;Success metrics</h2>
+<p local-id=3D"13263c00-31d0-44c1-9a33-070d0b6986ef"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"8d=
+429307-53ff-42aa-b7d8-32e704061785" class=3D"confluenceTable">
+<tbody>
+<tr ac:local-id=3D"fda3aaa6-5541-48cf-9a9d-bb307fd570bb">
+<th data-local-id=3D"29c16235-a184-49c1-b932-c7a38a466abc" class=3D"conflue=
+nceTh">
+<p local-id=3D"3711276f-37e7-4d8c-9517-3b18e5544e35">Goal</p></th>
+<th data-local-id=3D"4af974ac-4f88-4e13-b153-e69fb1915915" class=3D"conflue=
+nceTh">
+<p local-id=3D"d0041d22-1d12-4da4-9508-074b0ec20a2b">Metric</p></th>
+<th data-local-id=3D"408fded4-ba24-49c6-9df4-e81119fe805b" class=3D"conflue=
+nceTh">
+<p local-id=3D"efc94186-6c87-46b0-b610-e0b6105a8b8e">Target</p></th>
+</tr>
+<tr ac:local-id=3D"e607a4a9-a451-442b-aa14-9cf33aae4de6">
+<td data-local-id=3D"ea0c4634-f6a3-4be3-89ed-30c0965dd3b1" class=3D"conflue=
+nceTd">
+<p local-id=3D"431e0606-58d2-42d1-8ba8-ad5467868b26">Increase conversion ra=
+te</p></td>
+<td data-local-id=3D"fe246949-b77b-4368-8506-af95a1bf7751" class=3D"conflue=
+nceTd">
+<p local-id=3D"871af117-fe7b-47db-b653-1cd1a6972246">Overall web CVR</p></t=
+d>
+<td data-local-id=3D"1909305b-23af-46cb-9a21-840b0ce327fe" class=3D"conflue=
+nceTd">
+<p local-id=3D"6074df74-10bb-49da-b815-cb525da0b773">=E2=89=A5 5.5%</p></td=
+>
+</tr>
+<tr ac:local-id=3D"94341279-abbb-4383-b2e9-fd41cabdc949">
+<td data-local-id=3D"ae629481-d84b-42b5-88d0-9262274f58cb" class=3D"conflue=
+nceTd">
+<p local-id=3D"20ff577c-e5ec-4ae0-8de2-3712181f094c">Reduce cart abandonmen=
+t</p></td>
+<td data-local-id=3D"950ddce6-4367-4d8c-8945-8372802de439" class=3D"conflue=
+nceTd">
+<p local-id=3D"1a894403-f283-40ec-b222-4c66d4fd8076">Cart abandonment rate<=
+/p></td>
+<td data-local-id=3D"70f2c656-ec8b-4ab9-9c30-dbe05f9b042c" class=3D"conflue=
+nceTd">
+<p local-id=3D"8209300e-9c3e-492c-89e8-484eaa403936">=E2=89=A4 38%</p></td>
+</tr>
+<tr ac:local-id=3D"1e967687-cecb-4ff1-ac58-6e5e193e3665">
+<td data-local-id=3D"0f0a31d0-2c1f-4cf5-aa8b-3952780934d0" class=3D"conflue=
+nceTd">
+<p local-id=3D"cd384700-61da-4dc5-a0f7-3757463eee2c">Improve mobile-web spe=
+ed</p></td>
+<td data-local-id=3D"7181f4c4-b531-4850-815c-dfd19aabb30b" class=3D"conflue=
+nceTd">
+<p local-id=3D"1bcd7dd3-0ce9-400f-b840-9e19051d647b">Page load time (P95)</=
+p></td>
+<td data-local-id=3D"9c304393-72c2-4518-ad22-cb9d3aef15c7" class=3D"conflue=
+nceTd">
+<p local-id=3D"35e69b0a-9316-44fd-882e-3f8252788436">=E2=89=A4 1.8s</p></td=
+>
+</tr>
+<tr ac:local-id=3D"d7e59e96-6fc0-4090-b82e-f9a405dea6cd">
+<td data-local-id=3D"6bca8786-1265-44d1-8a7e-33da4d7e2d64" class=3D"conflue=
+nceTd">
+<p local-id=3D"2c253a19-3917-4ce1-a19a-df62db2442be">Seller efficiency</p><=
+/td>
+<td data-local-id=3D"b444044c-8ea3-4d02-a2c0-58beb695e6db" class=3D"conflue=
+nceTd">
+<p local-id=3D"f6633a87-3251-476f-8655-b6bd7ff1b1fe">Avg time to list a new=
+ product</p></td>
+<td data-local-id=3D"33c68a77-7509-4b3c-b580-5616379a712f" class=3D"conflue=
+nceTd">
+<p local-id=3D"8ee15ff5-ab79-44e9-b1b0-e01b7cd830be">=E2=89=A4 8 min</p></t=
+d>
+</tr>
+<tr ac:local-id=3D"dfff5142-80e6-44bc-9f47-c79e27faa0cd">
+<td data-local-id=3D"e1630eb4-94e4-4229-aa17-a2009cf89b8d" class=3D"conflue=
+nceTd">
+<p local-id=3D"69ef85ec-19e9-4409-a358-494f87afa097">Loyalty engagement</p>=
+</td>
+<td data-local-id=3D"44cf6a3a-d1fc-475b-b3cb-9a9c6c690b16" class=3D"conflue=
+nceTd">
+<p local-id=3D"e679a8f6-bee4-47e0-b2f2-702fc970c594">% of orders using Supe=
+rCoins/Black benefits</p></td>
+<td data-local-id=3D"b6f51abf-bcdc-421e-aec1-ecc288597074" class=3D"conflue=
+nceTd">
+<p local-id=3D"e525f119-2f34-4e72-b1ec-4b30d3a26166">=E2=89=A5 25%</p></td>
+</tr>
+<tr ac:local-id=3D"7bd6d58e-dd86-4872-b6a4-5442e948a536">
+<td data-local-id=3D"aaf79c50-e9c0-418b-a477-9df0ad0a5876" class=3D"conflue=
+nceTd">
+<p local-id=3D"7ab39d06-d2ed-4ff5-bba5-aaf2e9ce7da7">Peak event readiness</=
+p></td>
+<td data-local-id=3D"e024ab72-e416-439f-b19a-f0a642ed0b6a" class=3D"conflue=
+nceTd">
+<p local-id=3D"c666f9f9-bd54-4cba-be33-088d146daf32">Zero critical incident=
+s during BBD 2026</p></td>
+<td data-local-id=3D"41ee0d94-ba6f-4ebf-8d27-886e492bddae" class=3D"conflue=
+nceTd">
+<p local-id=3D"6e6625b0-0db3-4e5e-8104-767d03432616">100% uptime</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"8c7d273d-eadd-4734-bb3e-c4ca79044849" id=3D"BusinessRequire=
+mentsDocument(BRD)forFlipkartE-CommercePlatformEnhancementProject-Assumptio=
+ns"><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f914" data=
+-emoji-shortname=3D":thinking:" data-emoji-fallback=3D"\uD83E\uDD14" src=3D=
+"7a9347f1ac3cb3490107823d104ff1667f229c5d2ac10e67bd7260b1399b9f8a" width=3D=
+"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue star)">&nb=
+sp;Assumptions</h2>
+<ul local-id=3D"c81a7839-8223-4f7c-8bde-d6801db96d6d">
+<li local-id=3D"49839509-25af-4564-93a9-8a985bc127c1">
+<p local-id=3D"00d70485-976e-4291-bbd7-a3afdfb6a018">Third-party payment ga=
+teways (Razorpay, PayU) will maintain =E2=89=A5 99.9% uptime</p></li>
+<li local-id=3D"fcac267a-af7e-4e15-91b0-26dfe7a72768">
+<p local-id=3D"020d3db0-e601-456b-8560-000353ca45a6">Logistics partners (Ek=
+art, Delhivery) will provide real-time tracking APIs</p></li>
+<li local-id=3D"1b2e89ae-dc5e-460a-b1a9-c534634eb08c">
+<p local-id=3D"a563adc0-be79-4b76-8f57-8b4b4da1f5cb">Users are on modern br=
+owsers (Chrome 100+, Safari 16+, Edge 100+)</p></li>
+<li local-id=3D"0c0fe51c-f0b6-4744-83f4-15125eb81717">
+<p local-id=3D"6f604918-2291-4a4a-bd80-63bfaad20c5b">Flipkart Minutes is av=
+ailable in 50+ cities at launch</p></li>
+<li local-id=3D"8b161f73-8eaa-4719-92b9-607650b929e3">
+<p local-id=3D"9507d522-0926-413b-94ba-c1486a44508c">Compliance with DPDP A=
+ct 2023 &amp; GST regulations is handled by Legal team</p></li>
+</ul>
+<p local-id=3D"e416edf6-ab3f-45ed-b02d-e77d979576f1"></p>
+<p local-id=3D"f75653f1-3351-4eec-84f4-ffe516441fc0"></p>
+<h2 local-id=3D"dedfbd29-7774-4bf9-ab5f-2ff723ddc5bf" id=3D"BusinessRequire=
+mentsDocument(BRD)forFlipkartE-CommercePlatformEnhancementProject-Milestone=
+s"><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f31f" data-=
+emoji-shortname=3D":star2:" data-emoji-fallback=3D"\uD83C\uDF1F" src=3D"7da=
+4ff8920c173d279a02f5c483f4cbaef649abe034439b654e6e8b42098b03b" width=3D"16"=
+ height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue star)">&nbsp;M=
+ilestones</h2>
+<ul local-id=3D"47a506a9-1088-4b54-93c3-a4d187d519b7">
+<li local-id=3D"bc4382d7-4e9b-4fd7-9a2e-88b90df65580">
+<p local-id=3D"ae25b6b4-a36a-484f-b47d-92d1b6bbeed8">Requirements Sign-off =
+=E2=80=93 28 Feb 2026</p></li>
+<li local-id=3D"e249570c-f8b9-4ea9-b4f5-8cf7aceefeec">
+<p local-id=3D"bb2b1885-917c-4a79-87ea-6371e37c68b7">Design Freeze =E2=80=
+=93 31 Mar 2026</p></li>
+<li local-id=3D"3a532d36-0577-4c0a-b3fd-27c6ff02469b">
+<p local-id=3D"2b1a0a96-2fc0-45d3-bd38-f4773ac3cb52">Development Complete =
+=E2=80=93 30 Apr 2026</p></li>
+<li local-id=3D"b3f44053-d067-4231-91f5-59f8f99923bd">
+<p local-id=3D"805e237f-3850-4662-823b-71ca85c6a26b">UAT Complete =E2=80=93=
+ 10 May 2026</p></li>
+<li local-id=3D"45dfc380-88e0-40ff-bfa0-7f8424d30298">
+<p local-id=3D"07571ce3-77c7-4d26-81a0-4125644dbed5">Go-Live (Phase 1) =E2=
+=80=93 15 May 2026</p></li>
+<li local-id=3D"db82c6ad-3cc7-4dc0-b170-5ed32710c319">
+<p local-id=3D"e6982ca5-c29e-4f27-bfc2-4465b6773315">BBD 2026 Hardening Com=
+plete =E2=80=93 15 Sep 2026</p></li>
+</ul>
+<p local-id=3D"7d628c20-d1ce-4f14-be4d-fb17e1affac5"></p>
+<p local-id=3D"4e2e1cce-1c56-44d0-98ef-a937f0184f77"></p>
+<h2 local-id=3D"118e91d4-1dac-486e-b52f-6b1f11dec079" id=3D"BusinessRequire=
+mentsDocument(BRD)forFlipkartE-CommercePlatformEnhancementProject-Requireme=
+nts"><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f5d2" dat=
+a-emoji-shortname=3D":notepad_spiral:" data-emoji-fallback=3D"\uD83D\uDDD2"=
+ src=3D"4c00b7d5912852cc5210e923be169c8da852b8f7174bd2db791a968f3c96e2a0" w=
+idth=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue sta=
+r)">&nbsp;Requirements</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"b3=
+06bef0-019d-41bc-8a0e-c02485de2f7f" class=3D"confluenceTable">
+<tbody>
+<tr ac:local-id=3D"7aeab534-7860-4103-a74e-79b8bde8a12e">
+<th data-local-id=3D"a77e9117-b49f-4760-ba86-1cecf140c9a9" class=3D"conflue=
+nceTh">
+<p local-id=3D"74ea30f1-1406-44d5-a543-0595fef208d1">Requirement</p></th>
+<th data-local-id=3D"dd92fe2f-c317-4715-882c-b05aec7febec" class=3D"conflue=
+nceTh">
+<p local-id=3D"94bf58de-ae60-475d-b775-656cfe4f8a83">User Story</p></th>
+<th data-local-id=3D"35190c43-6178-40ed-a0a3-e63beab86e95" class=3D"conflue=
+nceTh">
+<p local-id=3D"080aa962-f344-4b26-9b69-1ce378293d04">Importance</p></th>
+<th data-local-id=3D"b7853f53-0f26-4373-b2fa-49728221244b" class=3D"conflue=
+nceTh">
+<p local-id=3D"5097b771-cfb1-4d6d-9fec-4f6ce8baac47">Jira Issue</p></th>
+<th data-local-id=3D"4daea317-3a6b-4d0c-aaff-6368d75ba307" class=3D"conflue=
+nceTh">
+<p local-id=3D"525f72cc-c682-40b1-87d1-85b3914e37d5">Notes</p></th>
+</tr>
+<tr ac:local-id=3D"e3a88485-568a-4c93-8ab8-642fd83d2a7e">
+<td data-local-id=3D"cac4f700-8fc2-4314-b49d-733247292973" class=3D"conflue=
+nceTd">
+<p local-id=3D"cd315027-4628-4db7-b233-73fa0cf99a72">User registration &amp=
+; login</p></td>
+<td data-local-id=3D"6ac8cda2-d807-4b07-b9ef-913baf62c32c" class=3D"conflue=
+nceTd">
+<p local-id=3D"ea924c65-257e-4afc-8b49-7153a9ebf899">As a new/guest user, I=
+ want to register/login via phone/email/OTP/Google/Facebook/biometric hints=
+ so that I can access personalized features quickly</p></td>
+<td data-local-id=3D"29eda017-85ec-4282-b4a5-82e7e9bc1d6a" class=3D"conflue=
+nceTd">
+<p local-id=3D"bd759440-6949-4966-b59e-492378267349">HIGH</p></td>
+<td data-local-id=3D"340a4343-82e8-4811-b0fc-46d0bfd592b6" class=3D"conflue=
+nceTd">
+<p local-id=3D"a57346e6-bfa1-4390-8ac4-870a19cadf2a">FLIP-1001</p></td>
+<td data-local-id=3D"37c11652-1dfa-4b7c-ae03-9f42e6b5748a" class=3D"conflue=
+nceTd">
+<p local-id=3D"116a3c9e-17f2-44cf-b0ca-a41907abd6cd">OTP 60s expiry, max 5 =
+resends/day</p></td>
+</tr>
+<tr ac:local-id=3D"fc423a43-ce9a-4537-8c29-953f70ef3c2b">
+<td data-local-id=3D"98c325f3-5489-467d-bc68-fa85c68567b1" class=3D"conflue=
+nceTd">
+<p local-id=3D"1706d01c-af5a-46e7-8680-b76d2d5ce185">Profile management</p>=
+</td>
+<td data-local-id=3D"82e16b0c-9b9e-4b67-8707-aa937dd2657c" class=3D"conflue=
+nceTd">
+<p local-id=3D"35575c97-d13a-4116-b1b0-9890158bcd09">As a registered user, =
+I want to manage addresses (up to 10), saved payments, and preferences</p><=
+/td>
+<td data-local-id=3D"ddda4d63-94b6-4f80-8468-b16132178ea0" class=3D"conflue=
+nceTd">
+<p local-id=3D"4f65cf1f-cb69-49a3-9afc-8468f96271a5">HIGH</p></td>
+<td data-local-id=3D"ce143a3b-84f3-400d-b885-21cd6616da08" class=3D"conflue=
+nceTd">
+<p local-id=3D"7ec8cb5f-ec9f-41e8-84be-eefb05ec64ee">FLIP-1002</p></td>
+<td data-local-id=3D"b9f68b44-b59e-48be-8338-67c9d338c8fb" class=3D"conflue=
+nceTd">
+<p local-id=3D"5e5f7819-f9e2-4308-9861-6afe3a74d17f">Geo-validation on addr=
+esses</p></td>
+</tr>
+<tr ac:local-id=3D"552ce287-0ab7-4f6a-8f14-c7fed0ad7291">
+<td data-local-id=3D"1d4c4ee2-f94f-4e01-96ee-d7cb85830f84" class=3D"conflue=
+nceTd">
+<p local-id=3D"e778b621-d657-4139-b363-8e6e35566728">Homepage &amp; navigat=
+ion</p></td>
+<td data-local-id=3D"834b9c72-ec7e-4db4-a859-4be52430f664" class=3D"conflue=
+nceTd">
+<p local-id=3D"2ab186cc-436a-4d50-8630-2f1e2f384401">As a shopper, I want a=
+ fast-loading homepage with personalized banners, category navigation, and =
+Flipkart Minutes toggle</p></td>
+<td data-local-id=3D"3ebdb040-4b42-4d6a-957c-08ae35463805" class=3D"conflue=
+nceTd">
+<p local-id=3D"55d00fdc-ed55-4385-97e9-e4633561e0bb">HIGH</p></td>
+<td data-local-id=3D"305d0bae-a0be-49bf-b24d-b2d1eb150805" class=3D"conflue=
+nceTd">
+<p local-id=3D"fbc34d07-5b6a-4b62-92d1-fb2f709faa89">FLIP-1003</p></td>
+<td data-local-id=3D"071aa7e2-0f0e-43a9-86ec-b49ef72a9c11" class=3D"conflue=
+nceTd">
+<p local-id=3D"8b24006f-51b1-44f8-90d9-bd1284bb44e6">Load &lt;1.8s, languag=
+e toggle EN/HI</p></td>
+</tr>
+<tr ac:local-id=3D"3505a1dc-743d-4037-b410-904cd062107c">
+<td data-local-id=3D"e58698be-645a-4692-9044-361f07bdae6a" class=3D"conflue=
+nceTd">
+<p local-id=3D"b61120ee-e273-4ec6-864c-50da2632ee16">Multi-modal search (Im=
+merse)</p></td>
+<td data-local-id=3D"9fc30b75-2f5d-430f-8999-9f4d99b6e231" class=3D"conflue=
+nceTd">
+<p local-id=3D"15bbbad2-92e0-46b2-8313-f1097ba0fe64">As a shopper, I want t=
+o search using text, voice, image, or video with auto-suggestions and filte=
+rs</p></td>
+<td data-local-id=3D"17fb13f8-1a9e-4834-ad62-b39278fa6929" class=3D"conflue=
+nceTd">
+<p local-id=3D"47cf710b-dd70-46b1-b462-54aa5c75f130">HIGH</p></td>
+<td data-local-id=3D"3ae4f928-9632-4398-b736-7eaa4f9a528e" class=3D"conflue=
+nceTd">
+<p local-id=3D"e326f31a-fe42-4ebe-8512-6d04ef9b0b2e">FLIP-1004</p></td>
+<td data-local-id=3D"fd79189e-34f4-4bf5-b931-c460527521e6" class=3D"conflue=
+nceTd">
+<p local-id=3D"914fc201-9ec4-4119-b7a9-afcd9aaebb24">Sponsored results clea=
+rly labelled</p></td>
+</tr>
+<tr ac:local-id=3D"6aaaeb5e-2efb-416e-8ad6-4e61823127b4">
+<td data-local-id=3D"b735fbcf-15c3-4812-b820-18fe39feb4ee" class=3D"conflue=
+nceTd">
+<p local-id=3D"ce1420e1-bad0-42ff-9909-28ac0615a040">Category browsing &amp=
+; filters</p></td>
+<td data-local-id=3D"9e827bac-5bbd-4676-80ee-98bcd5d37de3" class=3D"conflue=
+nceTd">
+<p local-id=3D"8818004b-b1fc-4192-880a-5144f9afd1a0">As a shopper, I want r=
+ich category pages with 65+ filters and trend sections</p></td>
+<td data-local-id=3D"5232bfdc-bb48-4e81-98ab-ef4e3bf75c36" class=3D"conflue=
+nceTd">
+<p local-id=3D"05f44fdb-b9d4-4a5c-b031-e04b9c1ad195">HIGH</p></td>
+<td data-local-id=3D"9da7a6b8-2357-4663-8ac9-a3dc2251d21d" class=3D"conflue=
+nceTd">
+<p local-id=3D"917cda2a-30c5-44eb-8796-b84c1c2f1ed1">FLIP-1005</p></td>
+<td data-local-id=3D"2a2da8fe-6c53-4536-b993-8e724954be60" class=3D"conflue=
+nceTd">
+<p local-id=3D"a61b51c4-ad7b-4076-be85-21bab0bbf9bc">Persist filters across=
+ pages</p></td>
+</tr>
+<tr ac:local-id=3D"bc7329d3-d763-4082-8477-164046e2fe8f">
+<td data-local-id=3D"6fcef04a-3a9b-4c24-aa6e-9e418cb7d2a2" class=3D"conflue=
+nceTd">
+<p local-id=3D"ec2c5e31-2fda-4943-b543-f0f4953d2e12">Product Detail Page (P=
+DP)</p></td>
+<td data-local-id=3D"cd9bf490-00f0-4907-bdb6-a160e6f0b84c" class=3D"conflue=
+nceTd">
+<p local-id=3D"6f3a8beb-8445-43be-85d0-a79444ccf6ef">As a shopper, I want a=
+n immersive PDP with 360=C2=B0 images, AR preview, video, specs, reviews, a=
+nd variant selection</p></td>
+<td data-local-id=3D"94b9f1f8-ce49-4a26-ace6-3a26470bacf3" class=3D"conflue=
+nceTd">
+<p local-id=3D"1971ab6d-1452-41d2-9a58-0bc79d6e3fc8">HIGH</p></td>
+<td data-local-id=3D"4266a587-eb9c-4d63-a1ee-f3602c8ff7a1" class=3D"conflue=
+nceTd">
+<p local-id=3D"d3dadb0d-2130-4783-b5df-0a0ba31b045b">FLIP-1006</p></td>
+<td data-local-id=3D"70fef66f-acbc-493e-a386-0a1d0c10ba99" class=3D"conflue=
+nceTd">
+<p local-id=3D"50ecc843-e7f8-4a89-9189-5d6fe59e3236">AR for fashion &amp; f=
+urniture</p></td>
+</tr>
+<tr ac:local-id=3D"6a0143b4-bbdd-49ae-8749-5137053ddd99">
+<td data-local-id=3D"bd686cf6-8d38-493d-b3ee-f4e184e0ae4b" class=3D"conflue=
+nceTd">
+<p local-id=3D"93b00151-2978-4b2c-ba37-457f8a13806d">Wishlist</p></td>
+<td data-local-id=3D"df94b9d8-d050-4e6a-a69e-616e853bd0a1" class=3D"conflue=
+nceTd">
+<p local-id=3D"54b5fb14-b372-4cbc-a66b-f6dda536fbd3">As a registered user, =
+I want to add/remove items to wishlist with price-drop alerts</p></td>
+<td data-local-id=3D"b8aaee13-c819-4b58-9ae1-0824cf3b56eb" class=3D"conflue=
+nceTd">
+<p local-id=3D"2dad799d-f12f-4162-b8bd-5c2dcb915b55">MEDIUM</p></td>
+<td data-local-id=3D"e2d80a21-a245-40a0-b36d-3beac32d4661" class=3D"conflue=
+nceTd">
+<p local-id=3D"239e5ebd-2fb9-4f73-977b-3bb4c527e4c4">FLIP-1007</p></td>
+<td data-local-id=3D"ba5325ae-48ac-4687-911a-5ec1e774422f" class=3D"conflue=
+nceTd">
+<p local-id=3D"cd2e1290-dc02-4237-b206-450a8a18e822">Cross-device sync, max=
+ 500 items</p></td>
+</tr>
+<tr ac:local-id=3D"fdfaaaec-c2c1-4f9c-9cf3-fb0a8007deb8">
+<td data-local-id=3D"012b2fae-8f14-48cf-87af-81b8f7822058" class=3D"conflue=
+nceTd">
+<p local-id=3D"601f20cb-6bd3-4c00-bda8-fed6c8b4305a">Shopping Cart</p></td>
+<td data-local-id=3D"d7c5966f-d5e2-4895-976f-cf573fb32ef2" class=3D"conflue=
+nceTd">
+<p local-id=3D"4a1b9838-d387-48b7-99d7-1dbce8a43c17">As a shopper, I want t=
+o view/edit cart, apply coupons/SuperCoins, and save items for later</p></t=
+d>
+<td data-local-id=3D"67d97125-13a9-4cb2-a7aa-67c4805802be" class=3D"conflue=
+nceTd">
+<p local-id=3D"9655591e-3b80-4247-b00e-1bc37fb01cf0">HIGH</p></td>
+<td data-local-id=3D"f7b0a4db-d1c3-4bef-95e1-b0f254fa31b7" class=3D"conflue=
+nceTd">
+<p local-id=3D"be76b889-feb7-4de3-bf76-9a1aa8aa7186">FLIP-1008</p></td>
+<td data-local-id=3D"cabe9738-e9ea-4cc0-be0d-597bb36298af" class=3D"conflue=
+nceTd">
+<p local-id=3D"32916732-904c-4773-9ca1-b50b0485c4f3">Real-time total calcul=
+ation, persist 45 days</p></td>
+</tr>
+<tr ac:local-id=3D"5161d6a2-c0b4-462f-abb3-019cad586fc4">
+<td data-local-id=3D"6e35f868-6a1e-47d3-a63e-8e1fe6b75b10" class=3D"conflue=
+nceTd">
+<p local-id=3D"9baabb57-8179-446d-b7d9-d2aae90b1e61">Checkout &amp; Payment=
+s</p></td>
+<td data-local-id=3D"8fd2072d-3155-4617-88ea-7796ce77635c" class=3D"conflue=
+nceTd">
+<p local-id=3D"3661cb42-fb58-44ff-965f-f9956a7a4478">As a shopper, I want a=
+ fast, secure checkout with 20+ payment options including BNPL &amp; COD</p=
+></td>
+<td data-local-id=3D"f265a63d-a45f-4fed-a93d-78c3ff8bc6a2" class=3D"conflue=
+nceTd">
+<p local-id=3D"cda09aee-dbe1-47f8-a830-2cabec8ecc58">HIGH</p></td>
+<td data-local-id=3D"b9f7cab4-4a82-4578-9416-19a1df20d041" class=3D"conflue=
+nceTd">
+<p local-id=3D"a96b2252-442d-4ded-8c3c-a398cf80b10f">FLIP-1009</p></td>
+<td data-local-id=3D"f286e733-e578-491e-ae92-8f5bfae3eea8" class=3D"conflue=
+nceTd">
+<p local-id=3D"c93379ad-7ada-4e36-8ab2-32757e692033">End-to-end &lt;2 min, =
+inventory lock on payment start</p></td>
+</tr>
+<tr ac:local-id=3D"0262dbfa-ea33-486d-8c65-aca67ccf5bd3">
+<td data-local-id=3D"226c150f-ed3a-4fdd-9a15-d2677c2284f4" class=3D"conflue=
+nceTd">
+<p local-id=3D"2259e5ae-b150-4f49-b236-2f30466ce964">Order tracking &amp; r=
+eturns</p></td>
+<td data-local-id=3D"634acad9-0102-41b2-b0db-83a3aa403bee" class=3D"conflue=
+nceTd">
+<p local-id=3D"87da2a23-01ad-4970-966f-3faccfa9979b">As a shopper, I want t=
+o track orders in real time and initiate returns/cancellations</p></td>
+<td data-local-id=3D"746f5932-a198-4054-a6ed-47e8989a2cbb" class=3D"conflue=
+nceTd">
+<p local-id=3D"8d2e3d17-dff9-4f07-adf2-5cbb79723795">HIGH</p></td>
+<td data-local-id=3D"d23f5362-0399-4714-8bfb-6665739da6c6" class=3D"conflue=
+nceTd">
+<p local-id=3D"ce6dbb9e-ae9e-42ce-8f71-57254b06dbd9">FLIP-1010</p></td>
+<td data-local-id=3D"85a892d4-5a6a-4dc8-bbce-08ebcfb92e42" class=3D"conflue=
+nceTd">
+<p local-id=3D"62296c8e-8320-4c87-bb54-ca02fb15ac17">Return window 7=E2=80=
+=9330 days based on category</p></td>
+</tr>
+<tr ac:local-id=3D"5613912b-4147-48b0-a9e3-ee4253dbc529">
+<td data-local-id=3D"409e030f-5522-41a5-a8f2-7037cefb009d" class=3D"conflue=
+nceTd">
+<p local-id=3D"9b3083c3-7f10-47c4-8a98-66a0bc3ee433">Flipkart Black &amp; S=
+uperCoins</p></td>
+<td data-local-id=3D"a1aac7ce-ab69-4169-927b-ec4e958590a3" class=3D"conflue=
+nceTd">
+<p local-id=3D"24d84e52-4334-485d-a505-cf8158e10abe">As a shopper, I want t=
+o earn/redeem SuperCoins and enjoy Black benefits (5% cashback, exclusives)=
+</p></td>
+<td data-local-id=3D"f44276f5-8543-4c66-82f3-c4d5ae1c2120" class=3D"conflue=
+nceTd">
+<p local-id=3D"0127110c-1964-4680-8978-fd0d01d44f3b">HIGH</p></td>
+<td data-local-id=3D"7e681468-0630-4352-9091-fc084c8e83ea" class=3D"conflue=
+nceTd">
+<p local-id=3D"fc37c7e6-a2b7-49ba-8856-c254d31c622b">FLIP-1011</p></td>
+<td data-local-id=3D"10b1cd53-d9c3-4c1b-b62a-19d8e0ea1bb0" class=3D"conflue=
+nceTd">
+<p local-id=3D"fe4402ad-09e3-4745-bcdb-f5f7967f4cab">Coins expiry 6 months<=
+/p></td>
+</tr>
+<tr ac:local-id=3D"c2a7e989-3225-460d-a293-a15b8c1f617e">
+<td data-local-id=3D"93ed30a6-8592-424d-90fc-facb8c5b4bb7" class=3D"conflue=
+nceTd">
+<p local-id=3D"e681441c-368f-4d01-86ef-d7b43be2a769">Seller onboarding</p><=
+/td>
+<td data-local-id=3D"8e55061f-a8de-4bde-bc1b-aae4e58a991b" class=3D"conflue=
+nceTd">
+<p local-id=3D"1e1af498-b1f7-4c16-ba8f-37cf8bb49e63">As a seller, I want to=
+ onboard in &lt;10 min using GSTIN &amp; bank auto-verification</p></td>
+<td data-local-id=3D"3594a573-eeba-4589-bc61-49ab6ebced02" class=3D"conflue=
+nceTd">
+<p local-id=3D"76730087-c5eb-4e09-8f73-991cdcab8f56">HIGH</p></td>
+<td data-local-id=3D"b117f4b2-30a9-4b6b-b2d8-ed0eb58f7e4d" class=3D"conflue=
+nceTd">
+<p local-id=3D"a5d02aa8-fa72-4c7a-9485-81dde7120d31">FLIP-1012</p></td>
+<td data-local-id=3D"8666f032-dafa-4c1f-8e23-7dcb88cd8bc5" class=3D"conflue=
+nceTd">
+<p local-id=3D"e178d273-1a14-4d7a-9663-54285c7d207e">Video KYC fallback</p>=
+</td>
+</tr>
+<tr ac:local-id=3D"4ab9da60-2e2f-42d8-8fd2-ff3485b32bf3">
+<td data-local-id=3D"0c326392-805e-4275-813a-bc35bc0c5070" class=3D"conflue=
+nceTd">
+<p local-id=3D"05900adc-697e-48f0-bc30-aeddf6dc68b7">Seller product listing=
+</p></td>
+<td data-local-id=3D"e4cd81f3-777e-43c2-bd07-7dd117a75cf9" class=3D"conflue=
+nceTd">
+<p local-id=3D"0a7dd495-4453-464f-85b7-cf352aa0bbb1">As a seller, I want to=
+ list products via bulk CSV or AI-assisted single listing with video suppor=
+t</p></td>
+<td data-local-id=3D"8229fac8-4ff9-4d0b-ba39-1a359689739e" class=3D"conflue=
+nceTd">
+<p local-id=3D"fb340d9a-d6d3-4557-b2c5-68475d8c69d1">HIGH</p></td>
+<td data-local-id=3D"d8f7f821-d86e-49b5-8c4d-d787714394ab" class=3D"conflue=
+nceTd">
+<p local-id=3D"bdfb1f11-bf55-45cf-8ca1-ebeabe709998">FLIP-1013</p></td>
+<td data-local-id=3D"de7ef04b-8f5c-4529-a8ac-d416b1ea80c7" class=3D"conflue=
+nceTd">
+<p local-id=3D"b07f0e60-d32a-4a4a-9168-e5f5887398dc">AI title/image suggest=
+ions</p></td>
+</tr>
+<tr ac:local-id=3D"5536872f-c23c-4d91-8332-049c26952b16">
+<td data-local-id=3D"46cfb3c2-c24a-476c-b329-1de755045c85" class=3D"conflue=
+nceTd">
+<p local-id=3D"60d1999e-e13f-4cf4-8be7-bfd077173692">Seller inventory &amp;=
+ order management</p></td>
+<td data-local-id=3D"d0102a67-b2f6-41de-be60-4eb06dc32d10" class=3D"conflue=
+nceTd">
+<p local-id=3D"53721cb7-d40e-4c12-878d-28e67225b609">As a seller, I want to=
+ manage stock, process orders, and handle returns in one dashboard</p></td>
+<td data-local-id=3D"c5ceeb16-a477-4a02-8154-fa9939d0b304" class=3D"conflue=
+nceTd">
+<p local-id=3D"6297d70e-bb16-4089-98cb-2dc7d5ddba08">HIGH</p></td>
+<td data-local-id=3D"5f8143d0-6ec7-4d5c-9b5d-cc23b72b7e61" class=3D"conflue=
+nceTd">
+<p local-id=3D"5a17c04c-bdba-4330-b339-e2f4638abf6a">FLIP-1014</p></td>
+<td data-local-id=3D"035f3d45-eca1-4261-bd98-605e3a2cc6e4" class=3D"conflue=
+nceTd">
+<p local-id=3D"c9ef435c-4552-4d79-8c73-43ed9ea06cb8">Fulfilment by Flipkart=
+ (FBF) integration</p></td>
+</tr>
+<tr ac:local-id=3D"32d03350-304d-4f12-aba9-0ba3c413bd79">
+<td data-local-id=3D"569db6ae-0dcf-49c1-8ab3-25bdeff0c0a1" class=3D"conflue=
+nceTd">
+<p local-id=3D"cc14c8a4-604e-424c-9093-55088013e4fb">Seller payments &amp; =
+analytics</p></td>
+<td data-local-id=3D"f7bc74c1-fb99-444a-bd38-4a501c494192" class=3D"conflue=
+nceTd">
+<p local-id=3D"dad273d0-4185-4143-b897-91b9f4cbadd9">As a seller, I want T+=
+7 settlements with detailed P&amp;L reports and performance analytics</p></=
+td>
+<td data-local-id=3D"b8abc6c1-abae-4c1f-b3ee-d49c6d78d506" class=3D"conflue=
+nceTd">
+<p local-id=3D"7655be2d-12ce-4ab1-b0a8-1922325335eb">HIGH</p></td>
+<td data-local-id=3D"e0b5282a-be33-4a9f-8f22-62e93ec96c08" class=3D"conflue=
+nceTd">
+<p local-id=3D"bc74209d-866c-42e2-aa95-fcb1831e82f7">FLIP-1015</p></td>
+<td data-local-id=3D"8fc77269-66b9-4f5e-9d95-5fb33c41a314" class=3D"conflue=
+nceTd">
+<p local-id=3D"70c056af-49ae-40c7-99da-24eb2a199447">100% settlement accura=
+cy</p></td>
+</tr>
+<tr ac:local-id=3D"d0d3a48b-599a-4f0b-b772-66d6c73b09f0">
+<td data-local-id=3D"a1b80253-eb5b-4fca-8990-d800ad690e7f" class=3D"conflue=
+nceTd">
+<p local-id=3D"a9826364-0b90-474d-bd0d-76dc3570c289">Customer support</p></=
+td>
+<td data-local-id=3D"7aa693da-b9e2-4a5b-89bf-ccf23e85a491" class=3D"conflue=
+nceTd">
+<p local-id=3D"72ad3cba-dce9-40b9-ba85-5c8913f528a7">As a shopper/seller, I=
+ want AI-powered chat, FAQs, and ticket system for quick resolution</p></td=
+>
+<td data-local-id=3D"b89fcc31-1435-476c-8303-876338a549ca" class=3D"conflue=
+nceTd">
+<p local-id=3D"97a40b15-59c3-49bb-a396-113f0eb1acc8">MEDIUM</p></td>
+<td data-local-id=3D"d637f61e-c665-431a-85e1-72492776176e" class=3D"conflue=
+nceTd">
+<p local-id=3D"373aa869-4228-4bfe-89e5-9b5d2e60c346">FLIP-1016</p></td>
+<td data-local-id=3D"0911a41d-8570-47e1-9742-6148c1588fb1" class=3D"conflue=
+nceTd">
+<p local-id=3D"ffd30b43-8cb8-4fc9-91b6-3aaa5f8804c1">AI resolves =E2=89=A57=
+0% queries</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"99b6397d-a6bf-410d-bf7e-94f522c31cbf" id=3D"BusinessRequire=
+mentsDocument(BRD)forFlipkartE-CommercePlatformEnhancementProject-OutofScop=
+e"><img class=3D"emoticon emoticon-warning" data-emoji-id=3D"atlassian-warn=
+ing" data-emoji-shortname=3D":warning:" data-emoji-fallback=3D":warning:" s=
+rc=3D"76c7c553a4396231aafe2d42c48c7382556e41cb6ddedc209c3115cfc615bb7d" wid=
+th=3D"16" height=3D"16" data-emoticon-name=3D"warning" alt=3D"(warning)">&n=
+bsp;Out of Scope</h2>
+<ul local-id=3D"cf96a4b4-3a96-47ff-a908-ad1020383fe0">
+<li local-id=3D"ce1c61b8-67af-450e-b3b6-a65404c29197">
+<p local-id=3D"bbf89632-eae1-49b8-bfc2-6c5b51b9c956">Native mobile apps (An=
+droid/iOS) =E2=80=93 handled by separate mobile team</p></li>
+<li local-id=3D"58666749-2813-4354-9eea-d4351283eaf8">
+<p local-id=3D"3eac9594-5a55-4989-b942-5093fe57776b">Backend ML model train=
+ing for Immerse</p></li>
+<li local-id=3D"770928d6-e3e1-4b86-aeb4-0b2e4fcc4dbe">
+<p local-id=3D"25cef6de-d5be-477c-8a3e-f1a466385f1a">Physical store integra=
+tions</p></li>
+<li local-id=3D"da8f7f22-9c73-4596-ba69-0a3306630f72">
+<p local-id=3D"df3e57b5-7019-4f94-85ac-21f40fcc2516">International expansio=
+n</p></li>
+</ul>
+<p local-id=3D"2f4d1f1b-3aec-45da-b547-6bbf843e7292"></p>
+<p local-id=3D"8581ef96-8fcc-4005-92fb-188dd97ec705"></p>
+<h2 local-id=3D"2f386806-6e22-4758-b0b7-f61d55b9af5b" id=3D"BusinessRequire=
+mentsDocument(BRD)forFlipkartE-CommercePlatformEnhancementProject-Design"><=
+img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f3a8" data-emoj=
+i-shortname=3D":art:" data-emoji-fallback=3D"\uD83C\uDFA8" src=3D"ba95be812=
+6437e35561b9a97a00d34754b20968735fe54eb52c8ccde8cc2cddf" width=3D"16" heigh=
+t=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue star)">&nbsp;Design<=
+/h2>
+<p local-id=3D"ccd92848-030f-4d11-97cb-2291c3272874">Figma <a class=3D"exte=
+rnal-link" href=3D"https://figma.com/flipkart-202" rel=3D"nofollow">File: h=
+ttps://figma.com/flipkart-202</a>6</p>
+<p local-id=3D"ccd92848-030f-4d11-97cb-2291c3272874">Key screens: Homepage =
+2026, Immerse Search, PDP 2.0, Checkout Flow, Seller Dashboard v5</p>
+<p local-id=3D"7ef8598d-c99d-44e3-917a-d5a88fb6ca78"></p>
+<h2 local-id=3D"554be8c1-9baf-46f2-b895-37d4f826eea9" id=3D"BusinessRequire=
+mentsDocument(BRD)forFlipkartE-CommercePlatformEnhancementProject-Openquest=
+ions"><img class=3D"emoticon emoticon-question" data-emoji-id=3D"atlassian-=
+question_mark" data-emoji-shortname=3D":question_mark:" data-emoji-fallback=
+=3D":question_mark:" src=3D"993f0d399c30919a206848f7d631bd27d9bff497646b7d4=
+9529071a2e454df23" width=3D"16" height=3D"16" data-emoticon-name=3D"questio=
+n" alt=3D"(question)">&nbsp;Open questions</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f8=
+6eae87-459e-4695-984e-77ae0df97714" class=3D"confluenceTable">
+<tbody>
+<tr ac:local-id=3D"b1556343-a1a5-4e04-8739-1d561200e949">
+<th data-local-id=3D"8755ff49-9a4c-44b8-b553-86bd0d2fb495" class=3D"conflue=
+nceTh">
+<p local-id=3D"6bf04dc0-867e-4c9f-9246-4bb1eb026e97">Question</p></th>
+<th data-local-id=3D"b49fe51f-faa0-4a44-a390-bfe7a080f17a" class=3D"conflue=
+nceTh">
+<p local-id=3D"8aebbf7f-cbf2-4645-a448-da4619abffe8">Answer</p></th>
+<th data-local-id=3D"33d8f980-1cb2-4788-8c1e-33f2bae2ec11" class=3D"conflue=
+nceTh">
+<p local-id=3D"4fc04f1e-585f-4cc5-927b-0313a148b2da">Date Answered</p></th>
+</tr>
+<tr ac:local-id=3D"787811e3-b8be-4b9c-b3e4-a2e203694925">
+<td data-local-id=3D"31a878d0-ee38-49e4-974a-d3bb88d91e0e" class=3D"conflue=
+nceTd">
+<p local-id=3D"029c952a-ef67-4542-866f-5be8be488144">Will Flipkart Black in=
+clude YouTube Premium in 2026?</p></td>
+<td data-local-id=3D"a7eff03e-c69b-4386-a737-ec5e4718f398" class=3D"conflue=
+nceTd">
+<p local-id=3D"975a53db-c08a-4952-8ed5-e6d3b251e1a4">Yes =E2=80=93 confirme=
+d with Partnerships team</p></td>
+<td data-local-id=3D"6b091be3-6c7c-4492-bde5-f8abd40ac044" class=3D"conflue=
+nceTd">
+<p local-id=3D"c102e76e-594d-41a6-a07e-a19962ba0161">10 Dec 2025</p></td>
+</tr>
+<tr ac:local-id=3D"fa07ae6f-7464-4797-9d63-c678bd980107">
+<td data-local-id=3D"de8d2118-539f-4f4a-882a-1a2196b08332" class=3D"conflue=
+nceTd">
+<p local-id=3D"ddf928e8-4f11-4316-a4ff-3a406d0662cf">Maximum video length f=
+or seller PDP uploads?</p></td>
+<td data-local-id=3D"2935a351-c4e5-4455-ad68-f52251085b91" class=3D"conflue=
+nceTd">
+<p local-id=3D"eed42d99-4f7b-4b49-af4f-513fedfa6e34">60 seconds</p></td>
+<td data-local-id=3D"fafaf7ce-9c59-49f6-ac93-d56f6fcf1993" class=3D"conflue=
+nceTd">
+<p local-id=3D"588e4626-a27e-480d-bb71-8e9ced714464">12 Dec 2025</p></td>
+</tr>
+<tr ac:local-id=3D"406c2632-ba24-4f4f-9f1c-0afdc6ea7245">
+<td data-local-id=3D"26fdaa06-0f20-4a5c-a1fb-8330662e880b" class=3D"conflue=
+nceTd">
+<p local-id=3D"3e956a01-3993-48ae-bfe1-e7fe5bb3f986">Will BNPL partners req=
+uire additional KYC for limits &gt;=E2=82=B950k?</p></td>
+<td data-local-id=3D"7a2558b0-f6c5-431d-b778-fe3e011991e0" class=3D"conflue=
+nceTd">
+<p local-id=3D"8cf7125b-ddab-42c2-b637-cc0b4cda931b">Yes =E2=80=93 LazyPay =
+&amp; Simpl confirmed</p></td>
+<td data-local-id=3D"0ff076c4-0e96-45f5-b1d4-8c9cc83613d0" class=3D"conflue=
+nceTd">
+<p local-id=3D"9ec487aa-17d0-4d32-8cd0-7f3a2c2a6a57">15 Dec 2025</p></td>
+</tr>
+<tr ac:local-id=3D"cc53c903-123c-4749-b0d6-b07920f019a3">
+<td data-local-id=3D"42e87a7b-027f-413f-9977-ad2bde5927a6" class=3D"conflue=
+nceTd">
+<p local-id=3D"40bc7bf4-43f0-409a-82f2-159b69275cad">Can guest users redeem=
+ SuperCoins?</p></td>
+<td data-local-id=3D"ed08bd4a-5a23-45bd-9794-cdb4b08b6d85" class=3D"conflue=
+nceTd">
+<p local-id=3D"3930eda8-1aee-4251-a87c-9c8fd4f4ccea">No =E2=80=93 login req=
+uired</p></td>
+<td data-local-id=3D"c3dd8175-0dd6-4b0e-926a-88fde3ff18de" class=3D"conflue=
+nceTd">
+<p local-id=3D"de4d7ce8-fe10-419d-a16c-54061792ac2c">16 Dec 2025</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"c115b55c-9fd1-4e71-97ae-ff12729ddbb0"></p>
+<h2 local-id=3D"6e9ff086-1e38-40b3-80ce-6bdf048609a7" id=3D"BusinessRequire=
+mentsDocument(BRD)forFlipkartE-CommercePlatformEnhancementProject-Reference=
+Links"><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f5c3" d=
+ata-emoji-shortname=3D":card_box:" data-emoji-fallback=3D"=F0=9F=97=83=EF=
+=B8=8F" src=3D"d231c204cf5d8a89e443e3c7f16cf002ddf89bebbf27bbdbc6869d7cf282=
+3222" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(b=
+lue star)">&nbsp;Reference Links</h2>
+<ul local-id=3D"adf480b4-a342-436b-8938-2a365d89e7bd">
+<li local-id=3D"1c920957-3795-4236-b9f2-2b1d1efb6baa">
+<p local-id=3D"33b760d0-42bd-4075-b5c2-f8ee89d3b026">Flipkart 2025=E2=80=93=
+26 Roadmap Deck</p></li>
+<li local-id=3D"36ddebd0-e9cb-4af5-a0e1-3dc961fdb08f">
+<p local-id=3D"d0fb8439-b984-4b1a-ab0a-5880d8e63805">=E2=80=9CHow India Sho=
+ps Online 2025=E2=80=9D =E2=80=93 Bain &amp; Flipkart Report</p></li>
+<li local-id=3D"b95cbbc1-b1b8-48fc-b0e6-3a75f08b4d0c">
+<p local-id=3D"c985d1e6-d6df-43f0-9a76-a39b49964a4f">Flipkart Immerse Tech =
+Spec</p></li>
+<li local-id=3D"d8eec34d-7d07-4867-ae16-65f6a546b872">
+<p local-id=3D"86ea82f9-8e9d-498d-80ad-9820ba36a6a7">Seller Success Playboo=
+k 2026</p></li>
+<li local-id=3D"50b15f85-240e-4cba-a456-fd70c2b5f5ad">
+<p local-id=3D"d4df1df5-bb2b-4138-8b2e-d36231e9ffb5">Payments Orchestration=
+ Architecture (internal)</p></li>
+</ul>
+<p local-id=3D"02b0ceab-faea-4bd7-af8e-5ec52844221e"></p>
+    </div>
+</body>
+</html>
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/7a9347f1ac3cb3490107823d104ff1667f229c5d2ac10e67bd7260b1399b9f8a
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAvVBMVEVHcEz/y0z/y0z/y0z/y0z/
+y0z/y0z/y0z/y0z/y0z/y0z/y0zxkCDxkCD/y0z/y0zxkCDxkCDxkCD/y0z/y0zzliTxkCDxkCDx
+kCD7uT7xkCDxkCDxkCDxkCDxkCDxkCD/y0yyiTTxkCCMaCdlRxuCYCTFmjr8wETylCOfeS31w0n9
+xEe8kTf1oi54WCHsu0b4rjZvTx73pzHiskP7uT6VcCr6tTz1nSn5sTn+x0n8vEHPoj3ZqkCogTDz
+lyZJUBfDAAAAIHRSTlMAUCDfYO+AEM+/j59Az68wEJ8wQHBQv98gz49g769wgLdoNu0AAALWSURB
+VHhezZjZVqNAEIYxITREjTpus08v7GTdF5f3f6whodEORbUNxwu/S49+p/7qKmi0NJBbZ+BRiTdw
+bonVgs6dSwHuXaehxvYogmc30XSphq6p6gxogOrMQEMG1IAB+bCcHjWi90FRfWpMXxfrvBAsmBj7
+B8ar4QQ1nRPUU0zOcOyrBE+YySVaT+hXWTQ0yVysCCVeGFsFR9Eznk7X5zTwg7fOpKHwg7RRx89o
+K8AUdHrtRL3qFnu0JV6LYJOh7P5MsAUSDuxpmuQndzpBia8yZqncYNXjAE9x8KEq8ivMZFWOriAm
+f1c9+VkpEKIwrUBJNq2SbwkoacFY4Q8ofTrkTGiBbZW4IJkvYaeBZ+8/nbBhWa5bejq0yjMUqWs4
+pqd0YKtL6kWs9FdEDkxWEkjRk5FIZiMUEoIMOhEl+FQnclLwHsHVdWgdoRDJBJmKsCpyTPYVnqZA
+Ntel5ixWs0CeJOw2/QS+poh8HREeLZouP0W05Jy/Rp8gGvGcuJGpfiDn/MDmOMohyxk+p3qPW78i
+a35kqdwn5Fscw6tf2qwQzanwVRJc5SCPkUIU08Q/5UV/A+ggIr5Lh3l7DjCBmtSHtouI9oo7Pd7j
+BNJr5AYaQVFOytBsfSm6gscPRTmTSbasnfkr9QUJC+KVOrfz1+NhIsnAKzuKpWf0LtlPRzEvyWgJ
+eGWTnvI30lMm2y3nG2lAEvdI3bVmzUu2eZp1ngaQwWmEJUX8DZkGMMUKUruUxVxLPNpqOqRs7obj
+vM7XGbKv4Hq8xyQbIIHXYzXcCK1G0cBg8FOEo4yafIx4EcfBH2gQ8kPT6UYfbBe4aKrxQL41a5FH
+LAx8ECOkzwiXqGkO5se2NPw0zuaBOTRs0haUo+cBW5ETjQO6bDoA8U79Xw2xDLjRj1G3f2WZcX2J
+ibpe3wYdbmy6t5pzDdP9/mW14uJRtTz++fvdasvFTRHw4d+9seQ/xqXp+/TYvsUAAAAASUVORK5C
+YII=
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/348cc153698f33f99de39adfcec6a0828c1ef0ac28f81286fb019b91c2f34e6b
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAKlBMVEVHcEz9y1j9y1j9y1j9y1j9
+y1j9y1j9y1j9y1j9y1j9y1j9y1j9y1j9y1iQpHQ3AAAADnRSTlMAIGCPv9//UJ/vQK+Az1vcyGwA
+AAESSURBVHja7ZhZDoMwDESBkInNcv/rVmqprBYRAjN/7TuA5S2OPV2FfkhjxkYe09B3NyiWsSNb
+6S7RJ8cBntr9mmZUmac2bwynWINXi6MBX87cWdHIWnWqOJrxUgkLlzgMz3ARI+0ERtoJrJIfMk8F
+Nylf/eO4iX/204rbrGSCgmUXGB+cIWB6YALJez7NIJm3DIHmlaUEmvQ05KDxeBwkJWrPd0CGgBw1
+o+s2QMIQxWcbYISEMXLNZhsi/oZ+2pCsIWVPRPZoZWNENthUo1Y2/GXfkeqDlH3ZsiVCtdaIFy1+
+9VMvo/x6rF/Y+RNCf9TwZxZ/+BGW9Eetic91XkDQSxq8yMLLPmIhSi+N6cU6Xj58AMJUYqG+9bSb
+AAAAAElFTkSuQmCC
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/76c7c553a4396231aafe2d42c48c7382556e41cb6ddedc209c3115cfc615bb7d
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AABuugAAbroB1t6xFwAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1s
+bnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpS
+REYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMj
+Ij4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6
+dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmll
+bnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAg
+PC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAh9JREFUOBF1Uz1vE0EQfbN3vnyAkUOUgj5S
+EOIX2EgRET1SFATiPyAqyiCQBQ3if1CEgj8ABNsRHQ0gCqCBLgWQREq4vdvhze46oUhG2rvxu/fm
+a8fAKaaAGKwj3NIxbp9CORvSNyijeIJ7+rFQ/cQzwv2I5W9nqvURXCS+w1IYuz19D7UTRvSJxW+Z
+Mw0SBdMfWE0B4IpN6YXutx8r/vvPFS8LoWtY5F1CccynE3s1QBVOBEF3qsvQ+nPbQtaGGwoO5PXD
+LSkKelJdkX79Zco13UkFb3P5rX+C85A2dJrFOZXFeZW27TSGqX0zy1xz08AUBbM3usMmOljHAYKI
+L0vH9DRxvozYLNaNI31sswrTtKmCx1YoTfEUJlJRx+bmqhCP+Yalb+SYZU1p1ybXmX2COziHPjM1
+zFkK+Yd1is9MNClwqNZK37gywAvTJnG63yFqIzKPChybu3H1IAH0tREwkMucIcVbljjOABUXpYtl
+7MFT0bFezDYGH+I7PSJmATwukLsfl+u5cCgXEfCVt7uAlrfJ7qUI+L2/hJvPVqP21YNt9Lq7UI5M
+JHB8vP4Wv1jPsqN4k9lNbNmP98KUPqQTo5w8TOyjhlrhn+WIshlWzeGlAKyCI0tVmO6/7NMwXCqu
+gKK2GbxkT3fxl0DOz4Uk7NCb300CKz1iWW/jmOH5w0FyIQQTXCO/YsQ0vcxrmtnoleVRRvKLF8J4
+NQYY/wN5pOREe5Q+cwAAAABJRU5ErkJggg==
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/b322f53a04be1ab22e61f72accbb791cafc5c9d466a6d9bb2167b7cf9843fa5e
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAn1BMVEVHcExmdX/M1t1mdX/M1t1m
+dX/M1t1mdX/M1t3M1t1mdX9mdX/dLkTdLkRmdX/dLkRmdX9mdX9mdX/dLkRmdX9mdX/dLkTdLkTM
+1t3///9mdX/dLkRtcXvSLkNWLzctMzi7LkGOLj3WMki/QFOTWmmwSVqEY3A4QUbHO0+iUmJxaHOa
+Lj5ASVCwLkCOPEqDLzxicXo8RUulLj8xOD1IUllwdA2rAAAAGHRSTlMAcM+vIFBggL/vEJ9gvyDP
+v2DPII/vEO8aiWpWAAABKklEQVR42u2S2XKCQBAAERUQ5VBD1AWv3Pf9/98WhtrMEMp1p+DFVKaf
+unaoBqbWaRD2+mnqx0w3M8xUhc9yM1P1w5jlJuJMIT2Om0JjmKbDMwUwPAsPd0IY9vEPGT41bBpm
+MdgMzObmLfnlaIbG8fRAZRLl9+XoJq+wOBJNGpl5oh8qYGx3Ipn/6izg7FKVXIPZnVjUS0leUcDr
+XvZrliNJbT/66EoBTxuWE7SnSJ9cFArY7liORBjCo7vqqdtnlhOO5jyn0oNSb9sd25sh4vH963PD
+c4J+rcbH637NcUuIj4Qk1AwtO/I/QyvNcZOQhP7GzV5puCYhCcnNlpDc7NO82RI6tVDQLRRgyOsW
+8hzEXXbAdYjBqH1nNHDqJbf19+gO4gVtMgHu5xtrEawcpq3mSAAAAABJRU5ErkJggg==
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/20285ce65c22633c5d337739eb2c5e56a87edd10d0d73455856f6dad1c5b95a4
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAwFBMVEVHcEzM1t3M1t0AAADM1t3M
+1t3M1t3M1t3M1t3M1t3M1t0AAADM1t3M1t1NOjUAAADBaU8AAAAAAADBaU9ZMCSOVEOUnKEAAAAA
+AADM1t3dLkRfnMq7zNn7nTWlTXB1p85RlMf/rDO/P1xSe7HnUj+txdg7iMOWudNFgrvplD1kcqPB
+aU/yfTl4ZpPTNksNExcWM0lFW2y1RWSWVXzwdTomKCmEr9CEio80d6ugqK3QcEnYgkVIJx55QjHh
+PkLXVEaQXWKtAAAAGHRSTlMAUIC9j9/GIJ/vYHlAryhQteoQYM/vr5/xm4VTAAACyklEQVR4Xq2Y
+h5ajMAxFQyAEUmdmm+ktvWd62fL/f7VzsjEYCTmY7PuAe/SeJbeWRN2eYXacszqm0eu2GkizOg5S
+x9LUKF3DdgjZRv26BkNHquGgXjWWc1FWjarawBRhsH2pHNOpKVNalGY7tWVrElsA4M8jb3aWF819
+gCLtWWVKFM+A4qjMsmpwprwUIG96kWTRGBplyfN5nkn1LMtJE8IB2WDFgj8N9I9d2IIAOcku91PR
+h/NZLc2LzsQBYU62DVP3pDTcZgSpDYxhX6vQLSlciaRphTmrirO6d5HuRdQU9cDA4SrWa/HgVuph
+USTucPH9aYj7Z5G6hNIF7qfhOSFsLNu5pHYZNvcvJYODvNwX4ABS7s7jIOMEskFByBd2B0uyT8OB
+ChJznmyC5FPBZiImjkrShLX383UXMEGSKxBQeRf4QgfwczDioKJ/HpOSHot+4qCIn5zCmsWooE0C
+tEElxcW69aCzENeDawqht17LANOa5fkkFcpzysDsGi0TRLTloKAKFHDQFoRk5ll73BkqaCkiJ8Cb
+l6fN0+KmU5j0+3q9xHmnPCSeNgJBZ8v1p5bYW21QIoBEUmNQ8lEm/T6DFmDcaBBBUreGSA1BASYp
+hA2WH5Po5Zc2JCbRDSkdEUyiR0Q6tJj0hxxa+TaCSTtyG5FvbJj0k3HtD0dhY1PZat85qWAdedZq
+m/8vRGL7N775qxxHrILETkVpagckqyQ9+Y6teGQzimQoXiIYRRopXmsYRdIVL1qMJPXB1c+XX/0Y
+SbpVu4wymjRWuh4zmjRWurAzmjRWekLsSZJe9aiZxhTowAiSfqf2zHpliPRV1/X+SPnhd8CkL42e
+oq8MkW6aPY6PJdI3DlJ/rvtPpcG4Wa9HDT8Q3vZgVht/abxAkPonCybp1337vOTu+ld+RH2/Pe8d
+o2u/xu5+8EG9+rNu1O+Dwfhv34d/AQRp7/tgUvZrAAAAAElFTkSuQmCC
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/60c6b6aebc2848534fd030085f4bf3750344f0bb375843969814a0c7fae7d7aa
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAARVBMVEVHcEzh6O3h6O3h6O3h6O3h
+6O3h6O3M1t3X3+XR2+Hh6O1qmk+pwKqfwdzg5+xNnNo7lNndLkRckTvRoq3bQ1fN197Q2eBxOmes
+AAAAB3RSTlMAYO8QIM+/iPzB7wAAAPZJREFUeF7t2LuOgzAQheFAAuML90ve/1FXY7GMURoyx9Ii
+L3/n5itGcnMeV62onbK6iJhX5YCq1+6UDqr8lSoHVm33YaAzlrYYIO7E25qOpSJANTtvIg1E9Gap
+DhCThrQQGYbZeTJk9ZA9QKSH1gBxIES5QG0/hPoWg9phr4WgXqAegoaoT+iLYshJmUP4sf8cuqHG
+TyHfYFAz7TUQ5AXyEDRFZQFJMQT8/swg/Nj/HpqXMbTMGDSPezMELQItEDRGAdANnfm0MQT8/gyg
+NMe+oRuyesgeIKOHTIBkQFBCMiDIpKGAVpk00owsiWcffIhKNY1dtB+3F8T/isWgqQAAAABJRU5E
+rkJggg==
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/8f2caa106d56d1c0a3831bb4bc1bd1165e7c529387353cf9536d90eb081ab531
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAdVBMVEVHcEwxNz1mdX8xNz1mdX9m
+dX9mdX9mdX8xNz0xNz0xNz1mdX8xNz1mdX9mdX8xNz0xNz0xNz1mdX9mdX8xNz1mdX8xNz0xNz0x
+Nz0xNz0xNz1mdX8xNz0+R05caXNVYmpFTlZfbXdSXmY7Q0k4P0VjcXtPWmKeawBlAAAAG3RSTlMA
+QJ9gr2DvQO/fnyAQMI+/r4AQUHDPUCCPMM886pYFAAABIElEQVR4Xu3V2W6DMBCGURuDwYGGkK3L
+DEm6vv8jtkSoRbXHMLUvUsnfrdGR5uZH3ESpVKpeH4AsL69AmQOsZ5gc/BVCbDMY8jp3Guaqi/Gb
+QAdGxg8dgJHH2UEkKI8F6VgQRIK2f4bkBr8LgRROCjjtESNBq0BoAKqVFKLCaZIP4TWj0II0H7Lr
+vqBsCaBnoKdhRJZA5U5bkHVbYQHksNFQO26oL53Vk6lFor1ghlQqFoSbey5EU3spSaD59YYB/S8o
+QQm6PIO795dXDvQBni4UZI9/D956AnoYf0c/0NkPnW2IOHEATj066k+DxIIsZ3L1GweyCOcbH0pQ
+ghJk+FDrhDo+pJxQU3EhI9wduZAURNJwoOoo6FS7FDJdI269T0PtQ7scHFD1AAAAAElFTkSuQmCC
+
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/7da4ff8920c173d279a02f5c483f4cbaef649abe034439b654e6e8b42098b03b
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAY1BMVEVHcEz/2YP/2YP/rDP/rDP/
+rDP/rDP/rDP/2YP/rDP/rDP/2YP/2YP/2YP/rDP/2YP/2YP/2YP/rDP/2YP/2YP/2YP/rDP/rDP/
+rDP/rDP/2YP/2YP/rDP/2YP/rDP/2YP/rDNN5vrUAAAAH3RSTlMAIO8g70Bgv4CfEL/PYI8QjzBw
+UK/f34BQr0Cfz3Awq2JpyAAAAmVJREFUeF7N2NuS6iAQhtEfEkLO5xiP0/3+T7mnqKgMZQayuZl1
+Hb+0oq0l/FrmFgeJPG/gGPnbCEeT5wK7BklEywBbmfK3tIRtWIhIDtgzE7kXYGVjdW/4bcYeSUb9
+cyAjTfBWkyHhcC+gHC8Fbwq85GRQhT39FpIdNgm/JNh0cgv12CPIHangF+0ORALBIyVsUSEDua9S
+A0OzRcNoyDqSXV1tX6X4h7N9r7pDUElsA9lOACDCOkBXmdBkBnJkACbTqTr49c9zO7EjLbcz6xHk
+upjQyi6+mNByRagmF8j4gwIib3BIyx9dShyi7rwjzRAsyTT/4tQq/1hfWatT9kt1myl8VKqxuPMx
+98uqEtjU5cT/K21LPJ05SoGnC0fR7nsmfqIk5Qj298JXTOcLlowPctddfCmDI4vt+Ev+TnxpxEcj
+H1RgRxHfcUvhnfjSBb+6c6BT6VmRxw4+/smd4HPmIC0+6aZ8rhYiqm8DOIgabjURLdWcTx0MXCt6
+q6A5BH486AoAN7JNYesyxUS2G9CTrQFWDnAHGrL1IIucgo8NwCTJYocq62eaTwJAVHbolV0mGCmH
+UACAaaGNRENG3WBzbBM19evFFfncP4ajn5EVT8Ojn3MBF9Txz37UmtTwWTkMfDSHKY+H7lrrlF0K
+Hk5Fn2Eka3pssZVsK5SpXAWAcjw55/8rZWcSGA1JYYKZlSq8ITcDSLMmnJT2hdzMti86bM46LJS4
+GWDeFtWTMqkRHmet2wQ26f5ZANXqEYddtzUR7UGGQKyejCtiVWTkfyck/8pEbujxd46/k9uXe7Rh
+IZo7ePwD13Mw4CPmUAAAAAAASUVORK5CYII=
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/4c00b7d5912852cc5210e923be169c8da852b8f7174bd2db791a968f3c96e2a0
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAtFBMVEVHcExmdX9mdX9mdX9mdX9m
+dX/M1t1mdX9mdX9mdX9mdX9mdX9mdX/M1t3M1t1mdX/M1t1VrO5VrO5VrO5VrO7M1t3M1t1VrO6N
+mqNmdX/M1t1VrO5se4WzwMmtt71SWV4tMziFjZPCzNKCvOi2zuCuzOGMmaKZqrXG0NeAjZemsrqP
+l51vfYZASVB7g4ijrLNIUlk8RUsxOD1icXo4QUaGkJaZoqi5xMuZpq6zvsZksezF097U305VAAAA
+GXRSTlMAr8+PUO9ggL8gEJ9wIL9gzyBgv8/vEO/PeVHYJAAAAUhJREFUeF7t2FdPwzAUBeB0ZLak
+hbJsJ52Duff4//+LG0dGBPfSo4CKkHyejhLpU2zdl1yvkqTbiKIwBjufti90Qqjz6QmTDtS5xL74
+SAvoXQ7qFELUbmkA6H6y2kkKoGFOiPQec9MFFBetSQXo3C2F5DRNg3rEQyeyzPP6vpgpNdhZ4Wwd
+EpQZCOhy/qrU7rbl7L0IymkJAZ3yRtLBV6kvZUZQ9jCZSgl1ylzRN1WdgB4vRZGLkQQ7ZUZS9Z5S
+go4zLY2HYKcsCBpUIO0/aen+Cu0URfns7MtSOhfibjxEOw/Js5vr2xHUGcgzLx4vJ1O48xCe/wQ5
+yEH5EZz8W4gAOBuAfny0v58jB7nJdpPtIDfZbrLdZOcAhA3kr0EbP9raOCit59g/x0E9yP5d9/p1
+HL1AsFYaOMCsNIwEfxO7ZDEJUhyx1z7vBVjC/N1vsFIAAAAASUVORK5CYII=
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/ba95be8126437e35561b9a97a00d34754b20968735fe54eb52c8ccde8cc2cddf
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAb1BMVEVHcEzZnoLZnoLZnoLZnoLZ
+noLZnoLZnoLZnoLZnoLZnoLZnoLZnoLZnoLZnoLZnoLZnoLdNUhkkj/9yVAtapj/zE0iZplckTvd
+LkSLllbJnHnxu2HcWFvakHpne5DCl4XepHvgp3i3lIbaiXbCnHV250iaAAAAEHRSTlMAz58ggGBA
+vxDvMN9wj1CvDIq9xQAAAllJREFUeF7tl9mOozAQRY0xXiCQArJvvf7/N06rNMTMFQXxdDQPoz6v
+UY5uuVy2Uf8bP5SF0e432hTlX0ls7QghV9s0S6MDCQTdPGrxpqJZKuMf0gRaJCyrVqCRCKv5NmU0
+xctts9ttbi80Jitn4tAk75sds3mnP5BC+TVN52EPmzhTZO0nPRlNc9vduUHWbMJUVsScjt1+3x1P
+UbSJog0BVYmePBDz2e2Z7pMGdiMICfl0XSf2sOkkiOarG+bquL9zFEpD3NhTD/4uijppsZE6eiwN
+7EeI7Ufs4PGVIBI2JFINy2SIhNJwRASMYnycU1hsmeulPRzay5WY4CEQtF/moz0w7UeMFAPhhpS5
+sodN1xipoAiMiMTlcOdCTKGUWlMybRS1xKyV8pTOYQQx5FXzHFGjanpGaVQrRwJJi01OBUoF288E
+RenghmRSRTgigiiZfybKqmeIgsmV/b4o8JFQpIvc5HvFUSJOaRpRe7gNpnk999ttf36liB4X4XK4
+5gTe+i3Tv0VREavIrBpo5vOwh00xUz7c1tWXEq4nifP2znnwZPy/lTGlGmFolj6K+tk3Vx4FwX0R
+QLQdEStDYutjuaVeEmnpIYkPlnw9VxoGwnu3GesLYbHlQJqm617J7Q8QCPd0A0snbEihZdl4fCCS
+MCJOITj13LTF7R48OHBPY2YteEo5UMSV4k/QW2BNiCu4JRbyYPmISzzBA+SRE8nI65N+VDvsF9b2
+jG9Iv1Qcnssy1j2ksSBIUqFmmbyuSCTUpUqgrDOaIKutSsZbo+OBHZw21qtv8MMvJmDVpF9e7kkA
+AAAASUVORK5CYII=
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/351bb4d985861ea48d1da03a9e940593a8d9579c3f61cccd3ccfca5c28b15a38
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAwFBMVEVHcExVrO5VrO5QpeVBkc1V
+rO5UrO5VrO5VrO5VrO5UrO5VrO7/2YNNoeFVrO7/2YMiZ5pVrO4iZpkiZpkiZpkiZ5v/2YMiZplV
+rO7/2YMiZpn/2YO+yKz514f/2YP/2YP/2YMiZpn414hksOT/2YP/2YNVrO7/2YMiZplgr+dGmNYo
+b6Q0f7hqsuHVzp6At9NMoN/Ky6T01oqqw7kudq0lap5BkMw4hb6Kus3f0Zd1tNpSqOnq05C1xbKf
+wL+VvcZWH0GtAAAAJnRSTlMAYHAgEO/PQIC/35+/MFAW3I9EiHDv36qvYL+f+oBw70hgr6+PMJQg
+2PYAAAK4SURBVHhepZXpWttADEUdLxkvJARIgJallLZ37Ox72Hn/typgEjRjlZHp+e/zSVdzP3sE
+5dUjUKHH4EeI/DqeA3AftJp4pYYpxivNlulpR3gjDaWesIk3ogb1NLCl15V5DjvY0uA8GOadn4Jx
+jvIhqqYgwo5+nrtV3V6e9/HBNqcEhEH+Qu8o+GSaTp7nAxCS0qNAWeclnW6LzeYkf2MNitq+B3uk
+kt5J9zAkoxwelRZ7ICCjm9GUKN/fySl9GKRvIlhscicbWHCr4X7p8izvYXJa7p7CZLr63LOawmB0
+HpKz2Sa552l+5b2TwaLPm7jL393q64/DRvKZVsbBioXWP/Zp2SqmAe8ZGHtNHrTWFx4hBZjbOe5V
+zPQLxx5Focq6st5qbYasX/nmGTRR5X5oeoZ0nLux1mQgkhLHdLibajWcWiFrMhAhAk9/sxwMlps+
+7JBLypNRMgigIZeceTZtCKAh080oIWSMxppCNiN3E7ALmdzM4hQsTMiEPfbP6aI41za/vyJ6nusK
+F4yo7Q5ZJlKykCnz57ZMRENmOC+gaomKR05zOwHqiW7m3FYLwCEShTweoaZowY3zcIN3pGFPbjXD
+Y4EtMSOKhSGP7wCHSBTyE+ASSUKeFTA4YESZIOQJLBJGlJj/YYYFIBK5Qh6hSpMRRbuQH9h+goUR
+bUOeOZ6OSxSQXwTTTw6+I4qEzPRTLmr8K+SZHbLjRcYkZKafctEvSciSh7TH99NA9JCc/RTef5/r
+p4TAEl05+im+/6Wjn+KznVn9FJPZR3P0U3w2Rz/FZ/vj6Kc47Uu7n3J8JmvSTzmnhujY7qec1H7X
+iwJfo0UjcvRTHNK1o5/SlxTAgbS3rQj/QUR6G/rNLy/mh55B0MhS1CTNGoHHEao4S0RrRkkWq9Bz
+oJQfx0mSVCZMkySJY18pRvAXBgUypPvnkZwAAAAASUVORK5CYII=
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/d231c204cf5d8a89e443e3c7f16cf002ddf89bebbf27bbdbc6869d7cf2823222
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAwFBMVEVHcEyaqrRndX+aqrRndX9n
+dX+JmKKaqrRndX+aqrT8q0CaqrT8q0CaqrTM1t1ndX+8q5BndX9ndX9ndX/M1t1ndX9ndX9ndX9n
+dX+aqrRtfIaNnaeKmaOGkpukr7aXp7GQoKp6iZP1+Prh6O1ndX/M1t3j6Otss+vmbICpyeLS2t9d
+rezpboHnWnDjvMb8q0CTnqXxx8/D2+3XzLq/ytGNmaGfy+3kwY+41u3byaz2sFT5rkplsezP09PZ
+5O3F096mq6vUAAAAGXRSTlMAv7/PEHCPQEDvUGDfIFCfEK/vgN+PIGDfCxxGWAAAAgNJREFUeNrt
+1WtT4jAUxvFyqVsFFbuiNrCCzSnljuJt7/v9v9XS0xaTnHBLsjPrjP+XvPhNJk9bvHfXSXMh1Dwx
+dhZKplJThZpmTmtB8vbu7DJZ94tC+Pvl2R5OIqaDsG1ScAGrnhJdj68/ZOgJVl0EOuccMGKUVC59
+T4oA+0ydKkjQKJ0IpaMkeUXomwzBueq0QYJGE6VR8pidBx0RgmvZuQIZSlUoLQEVCuvkggToz4Sk
+heg1hYA9jzn2m0JcbfwM2I0EFQ4v00C0QhKdALAxV1u+/NwMjQELBMgHjGta5lLKNQHmq+MjNB/O
+hIZzzl8Q+roZatOnceXMlOZ8mZ1HcAhUpaNxPlShIVeiUPjm1KGEZqTdENTl0e4HcRxTKN7W4F6e
+zc+cON4N0TLJl0YbmEEDnE0cLcamqjONdyTNFq6hBxV62AMKpdHiQppK5yEOSZwtQMgwcTbfFvLL
+0WyhdjmaLVR9G+2uExnWuVvPVgfWjyzqs2K2gPUiq3osyEfrR5b189mOIuuOEKrYQxWEIgdlTssF
+lM32ycmJ/j3UZaCNdQ+DurCx7kEQ2wyxQ6AebOkQqAOrbjnp1gRiXJMJ9OUDeieQ/fz2D6T9K2L/
+0rr/jLj/sNnlHmq5gjwXkNu/7IY91PCwmq1T8/JOj+2c41OvlGpW50GnqFExvueG95/2Fzu2+skb
+2zkkAAAAAElFTkSuQmCC
+------=_Part_576_1017081555.1766891341925
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/993f0d399c30919a206848f7d631bd27d9bff497646b7d49529071a2e454df23
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AABuugAAbroB1t6xFwAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1s
+bnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpS
+REYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMj
+Ij4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6
+dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmll
+bnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAg
+PC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAApZJREFUOBGlU01IVFEU/u59785o2jSINZGp
+iKXVJjIjSAgUArVFEv1tpEUQQdGiXQvDRUHQpkXuctOmlg6VCi5sIy3GCRfaRlGkkjGcaEYN35t3
+3+2c+55Q0K4D797Deec759zvfleAbXhY0hdavz/bCYNb5HcDpsXGIFZon4bAKMYvzdpYjBF/gXvH
+XsBRd+EkAe2hGgHVAnbgYjcGXRnB5MC93SLCOrz0ZyegUr3wf4YSQjcmhbO6zS7QvEeGq57RNJGD
+RFqiUp6kSfoYJnkBd7bgkichRWigVuc8eaDGAZQE+zUCitIF/JJncxlDJqhzJ4SbQ+iHghLqHCOK
+RY13j0/iwvkWGGPwdmoJV4fmkWlQWLenohYyIWGCM7QQYXxmGvtwAqL42cfTm0242NOKmdwX5ObW
+cKW/HUODDVhf9nFI8aGEthjCEjummwkjcwJmjAYNdIiFxQ30nJsBOqpg8o040pwCFjSSR5k24sJi
+TLdA3xihRYKCXAS1xMrWNt3oV422jmqMP+tCS2Mal+9PITu3ibq0ix+ac20hPyLRQqPQFmHb6mgw
+cl49PIXWpjQePf+I7IcSGigegWMAbVxgBZIAADETmccd1oGqpIv8fAFPHizjWHsS33xj+3JujFkh
+pJgmQtoRVuieo2vdZO+0g9fvl+A61KOrGgWPitLUcRMmUSIMplkoozEhdOnC/t9LHj5p3LlxArev
+HwfyAfZxzBrnxCQS1sHimzW0XtuPZPos9I5PRZzQGOFnJHY2SpjJFzBb8aEVachYsE9qVKj8GsHE
+wEumMrI/pAwjdMqFU/4esE6QyrhhOYCmAf8hZX5VbKxtrzTCChOJWlU2StZnFOoPKrDPMas+zonf
+AT/EaIL/eM6/AdiQIDpicH/MAAAAAElFTkSuQmCC
+------=_Part_576_1017081555.1766891341925--
